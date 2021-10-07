@@ -1,0 +1,63 @@
+
+.heading{
+    display :flex;
+    height: 80px;
+    
+}
+.logo{
+   
+    width: 17%;
+    
+    
+    padding-left: 80px;
+    box-sizing: border-box;
+    }
+    .logo h1{
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        
+    }
+    
+
+.jumbotron{
+    flex-grow: 2;
+   
+    text-align: center;
+    margin:auto;
+    
+}
+.navsection{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    
+}
+.navsection a{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.box-align{
+      display: flex;
+    
+}
+
+.left-box{
+    flex-grow: 3;
+    text-align: center;
+    
+}
+section{
+    height: 220px;
+    border: 1px solid black;
+}
+
+.body {
+    flex-grow: 7;
+    text-align: center;
+    border: 1px solid black;
+}
+.footer{
+    text-align: center;
+    border: 1px solid black;
+}
